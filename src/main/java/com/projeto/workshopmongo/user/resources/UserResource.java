@@ -1,4 +1,4 @@
-package com.projeto.workshopmongo.resources;
+package com.projeto.workshopmongo.user.resources;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.projeto.workshopmongo.domain.User;
+import com.projeto.workshopmongo.user.domain.User;
 
 @RestController
 @RequestMapping(value="/users")
